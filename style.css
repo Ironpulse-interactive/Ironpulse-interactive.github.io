@@ -14,15 +14,22 @@ h1, h2, h3 {
 
 /* ---------- NAVBAR ---------- */
 header {
-    padding: 20px;
+    padding: 25px;
     background: #151515;
     text-align: center;
     border-bottom: 2px solid #ff4d2d;
 }
 
 .logo {
-    font-size: 28px;
+    font-size: 34px;
     letter-spacing: 1px;
+}
+
+.founder {
+    margin-top: 5px;
+    color: #b3b3b3;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 /* ---------- HERO SECTION ---------- */
@@ -78,19 +85,52 @@ header {
     width: 280px;
     border: 1px solid #ff4d2d;
     border-radius: 6px;
-    transition: 0.2s;
+    transition: 0.25s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     background: #222;
+}
+
+/* ---------- LINKS SECTION ---------- */
+.links {
+    padding: 60px 20px;
+    text-align: center;
+    background: #141414;
+}
+
+.link-buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.link-btn {
+    padding: 12px 20px;
+    background: #1b1b1b;
+    border: 1px solid #ff4d2d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-weight: 600;
+    min-width: 160px;
+    text-align: center;
+}
+
+.link-btn:hover {
+    background: #ff4d2d;
+    color: #0e0e0e;
 }
 
 /* ---------- ABOUT SECTION ---------- */
 .about {
     padding: 60px 20px;
     text-align: center;
-    background: #141414;
+    background: #101010;
 }
 
 /* ---------- FOOTER ---------- */
